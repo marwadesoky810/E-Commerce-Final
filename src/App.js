@@ -29,7 +29,7 @@ let routers = createBrowserRouter([
       { index:true, element: <ProtectedRoute> <Home /> </ProtectedRoute> },
       { path: 'brands', element: <ProtectedRoute> <Brands /> </ProtectedRoute> },
       { path: '/E-Commerce-Final', element: <ProtectedRoute> <Home /> </ProtectedRoute> },
-      { path: 'https://marwadesoky810.github.io/E-Commerce-Final/', element:  <Login />},
+      { path: 'https://marwadesoky810.github.io/E-Commerce-Final/', element:  <Home />},
       { path: '', element: <ProtectedRoute> <Home /> </ProtectedRoute> },
       { path: 'categories', element: <ProtectedRoute> <Categories /> </ProtectedRoute> },
       { path: 'cart', element: <ProtectedRoute> <Cart /> </ProtectedRoute> },
