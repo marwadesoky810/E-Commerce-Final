@@ -59,7 +59,7 @@ export default function Brands() {
                 <div className="modal-content m-5">
                   <div className="modal-header">
                     <h5 className="modal-title" id="modalTitleId">
-                    <p className='fw-bold text-center text-main'>{brand.name}</p>
+                    <p className='fw-bolder text-center text-main'>{brand.name}</p>
                     </h5>
                     <button
                       type="button"
